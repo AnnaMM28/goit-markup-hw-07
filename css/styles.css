@@ -723,7 +723,7 @@ body {
   fill: #f4f4fd;
 }
 
-.icon-menu menu-button menu-toggle js-open-menu mobile-menu .menu-toggle {
+.icon-menu .menu-toggle {
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -771,4 +771,12 @@ body {
   padding: 10px;
   color: #fff;
   text-decoration: none;
+}
+.js-menu-container {
+  min-width: 320px;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
